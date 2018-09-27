@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Parkings in Gent</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class='parkinglist' id='list'>
+    </div>
+    <div id='map' class='map'></div>
+    <div style='display:none'>
+        <div id='marker'></div>
+    </div>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCWL_9SaPCOiCruCwH9ed-QY73k3mlZK20&callback=initMap">
+    </script>
+    <script src='js/main.js'></script>
+</body>
+</html>

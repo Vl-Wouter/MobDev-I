@@ -1,0 +1,51 @@
+html, body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+}
+body {
+    display: flex;
+    flex-flow: row nowrap;
+    height: 100%;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.parkinglist {
+    flex-basis: 25%;
+    height: 100%;
+    box-shadow: 0 0 6px #666;
+    z-index: 999;
+}
+
+.parkingCard {
+    border-bottom: 1px solid #999;
+    padding: 0 3%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.parkingCard h1 {
+    line-height: 20px;
+}
+
+.plaatsen {
+    text-align: center;
+}
+
+.small {
+    font-weight: 300;
+}
+
+.num {
+    font-weight: 700;
+    font-size: 22pt;
+}
+
+.map {
+    background-color: red;
+    flex-basis: 75%;
+    height: 100%;
+}
